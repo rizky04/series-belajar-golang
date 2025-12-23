@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func typeDatanumber() {
+func main() {
 	//integer
 	fmt.Println("satu = ", 1)
 	fmt.Println("dua = ", 2)
