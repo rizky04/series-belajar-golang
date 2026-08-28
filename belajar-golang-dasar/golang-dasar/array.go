@@ -18,21 +18,31 @@ func main(){
 
 	//membuat array langsung saat deklarasi variable]
 
-	// var values = [3]int{
-	// 	90,
-	// 	80,
-	// 	95,
-	// }
+	var values = [3]int{
+		90,
+		80,
+		95,
+	}
 
-	// fmt.Println(values)
+	fmt.Println(values)
 
 	//fucntion array
-	// fmt.Println(len(values))
-	// values[0] = 100;
-	// fmt.Println(values)
+	fmt.Println(len(values))
+	values[0] = 100;
+	fmt.Println(values)
 
 
 	var a [5]int
-	fmt.Println
+	fmt.Println(a)
+
+
+	var twoD [2][3]int
+	for i := range 2 {
+		for j := range 3{
+			twoD[i][j] = i + j
+		}
+	}
+
+	fmt.Println("2d: ", twoD)
 	
 } 
