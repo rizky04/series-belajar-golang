@@ -53,4 +53,13 @@ toSlice := make([]string, len(fromSlice), cap(fromSlice))
 copy(toSlice, fromSlice)
 fmt.Println(fromSlice)
 fmt.Println(toSlice)
+
+//perbedaan slice dan array
+
+iniArray := [...]int{1,2,3,4,5}
+iniSlice := []int{1,2,3,4,5}
+
+fmt.Println(iniArray)
+fmt.Println(iniSlice)
+
 }
